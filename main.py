@@ -14,7 +14,6 @@ def main():
 def count_words(file_content):
     cleaned_file_content = re.sub(r'\s+', ' ', file_content).strip()
     word_count = len(cleaned_file_content.split(" "))
-    # print(word_count)
 
     return word_count
 
@@ -22,7 +21,6 @@ def count_words(file_content):
 def count_chars(file_content):
     char_count = {}
 
-    # cleaned_file_content = re.sub(r'\s+', ' ', file_content).strip()
     lower_file_content = file_content.lower()
 
     for char in lower_file_content:
