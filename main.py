@@ -56,4 +56,5 @@ The '{char}' character was found {char_count[char]} times'''
 
     return report_str
 
+
 main()
