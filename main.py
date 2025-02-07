@@ -56,12 +56,4 @@ The '{char}' character was found {char_count[char]} times'''
 
     return report_str
 
-
-# word_count = count_words(book_content)
-# count_chars(book_content)
-# print(word_count)
-
 main()
-
-# report = create_report(book_content)
-# print(report)
