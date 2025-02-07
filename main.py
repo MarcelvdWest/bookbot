@@ -8,7 +8,8 @@ def main():
     with open(path_to_file) as f:
         file_contents = f.read()
 
-    return file_contents
+    report = create_report(file_contents)
+    print(report)
 
 
 def count_words(file_content):
@@ -60,7 +61,7 @@ The '{char}' character was found {char_count[char]} times'''
 # count_chars(book_content)
 # print(word_count)
 
-book_content = main()
+main()
 
-report = create_report(book_content)
-print(report)
+# report = create_report(book_content)
+# print(report)
